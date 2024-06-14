@@ -9,13 +9,15 @@ html {
 }
 
 .page {
-  inline-size: 1200px;
-  block-size: 100%;
+  display: flex;
+  align-items: center;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  inline-size: 1200px;
+  block-size: 100%;
 }
 
 h1,
@@ -36,3 +38,146 @@ ul,
 ol {
   list-style: none;
 }
+
+button {
+  cursor: pointer;
+}
+
+/* .search-form__submit-button {
+
+}
+
+.more-button {
+
+} */
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 75px;
+  line-height: 94%;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  width: 1140px;
+}
+
+.content__accent {
+color: #545050;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 40px;
+}
+
+.search-form__fieldset {
+  border: none;
+}
+
+.search-form__checkbox-list {
+  cursor: pointer;
+}
+
+.search-form__textfield {
+  width: 225px;
+  height: 27px;
+  border: 1px solid #FFF;
+  border-right: none;
+  border-left: none;
+  font-family: inherit;
+  font-size: 18px; 
+  background-color: inherit;
+}
+
+.search-form__label {
+  width: fit-content;
+  cursor: pointer;
+}
+
+.search-form__fieldset-title {
+font-weight: 400;
+font-size: 18px;
+line-height: 21.6px;
+}
+
+.content__details {
+  width: 100%;
+  height: 100%;
+}
+
+.result__video-container {
+  position: relative;
+  width: 711px;
+  height: 386px;
+  padding-bottom: 16px;
+}
+
+.result__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content__list {
+  position: relative;
+  height: 298px;
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.content__list-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.content__card-link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.content__video-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content__video-card-title {
+  font-family: 'Oswald', sans-serif;
+font-size: 30px;
+line-height: 100%;
+text-transform: uppercase;
+}
+
+/* .content__video-card-description {
+font-size: 18px;
+line-height: 16px;
+} */
+
+.content__video-card-description-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  inline-size: 1px;
+  block-size: 1px;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
