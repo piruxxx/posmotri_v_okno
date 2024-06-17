@@ -255,6 +255,11 @@ button:focus-visible {
   padding: 2px 0;
 }
 
+.content__video-card:active {
+  text-decoration: none;
+  background-color: #545050;
+}
+
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
