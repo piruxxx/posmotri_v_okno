@@ -39,7 +39,7 @@ ol {
   list-style: none;
 }
 
-.visually-hidden {  
+.visually-hidden {
   position: absolute;
   overflow: hidden;
   clip: rect(0 0 0 0);
@@ -268,6 +268,7 @@ ol {
 }
 
 .content__video-card-title {
+  max-width: 200px;
   overflow: hidden;
   font-family: "Oswald", sans-serif;
   font-size: 30px;
@@ -275,7 +276,6 @@ ol {
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 200px;
 }
 
 .content__video-card-thumbnail {
